@@ -1,8 +1,8 @@
 # Computational-Intelligence-2022
 
-## Lab12
+## Lab2
 
-#### Made in cooperation with Jacopo Taramasso, S292634
+#### Made in cooperation with Gabriele Canova, S303389
 
 
 ## Algorithms
