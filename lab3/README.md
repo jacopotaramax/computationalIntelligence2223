@@ -57,7 +57,7 @@ It would be necessary to add some pruning to make the computation lighter and to
 
 
 
-# Task3.4: An agent using minmax
+# Task3.4: An agent using Reinforced Learning
 The idea of the first strategy has been taken from [wikipedia](https://en.wikipedia.org/wiki/Q-learning) and from this [repo](https://github.com/jakob-manning/nim-bot), using Q-Learning, a model-free reinforcement learning algorithm. 
 For any finite Markov decision process (FMDP), Q-learning finds an optimal policy in the sense of maximizing the expected value of the total reward over any and all successive steps, starting from the current state.
 Q-learning can identify an optimal action-selection policy for any given FMDP
