@@ -66,8 +66,8 @@ A dictionary Q is iniazilized to maps the tuple (state, action) to q-values (num
 Nim game is trained against itself for a given number of matches to return the reinforced agent we wanted.
 
 The Q-value used (taken from wikipedia):
-[Q_value](lab3\Qformulas.png)
-Q (state,action) = previous Q value + alpha_learning_rate * (new value estimate - olq Q value)
+![Q_value](lab3\Qformulas.png)
+<br>Q (state,action) = previous Q value + alpha_learning_rate * (new value estimate - olq Q value)
 ( with new value estimate that is the current reward + the future reward estimation )
 
 The second strategy is taken indeed from the Maze project given from the professors, Nim games has been adapted to work with the Maze functions. In particular we had to convert the rows to tuples <code>(tuple(state._rows)</code>, and adapt the exploitation of the cook function from the previous tasks. 
